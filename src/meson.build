@@ -21,7 +21,7 @@ endif
 
 xraylib_error_flags = cc.get_supported_arguments(xraylib_error_flags)
 
-extra_include_dirs = include_directories('..', '.', '../include',)
+extra_include_dirs = include_directories('..', '.', '../include','../cplusplus',)
 
 shared_sources = files(
     'atomicweight.c',
